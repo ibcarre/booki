@@ -1,11 +1,12 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width:1024px) {
 
-    /*    main {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-    }*/
+    html,
+    body {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
     body {
         padding: 0px;
         margin: 0px;
