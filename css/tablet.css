@@ -1,16 +1,20 @@
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
+/* Medium devices (tablets, less/equal than 1024px) CHANGER 1024 EN 1400 */
+@media (max-width: 1440px) and (min-width:1024px) {    
     .hebergements-and-populaires {
         flex-direction: column;
     }
 
     .hebergements {
-        width: 100%;
+        width: 100% ;
+        min-width: 924px;
+        height: 611.5px;
     }
 
     .populaires {
-        width: 100%;
+        width:100%;
+        min-width: 924px;
+        height: 252px;
         margin-top: 50px;
     }
 
@@ -20,15 +24,59 @@
         justify-content: space-between;
     }
 
-    .populaires-cards .card {
-        width: 30%;
+        .populaires-cards .card {
+            width: 30%;
+        }
+
+        .populaires-cards .card-title {
+            font-size: 14px;
+        }
+
+        .populaires-cards .card-subtitle {
+            font-size: 13px;
+        }
+
+    .hebergement-cards img {
+        box-sizing: border-box;
+        width:100%;
+        height: 124px;
+        background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+        /* White */
+        border: 5px solid #FFFFFF;
+        border-radius: 20px 20px 0px 0px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
+    .activites-cards img {
+        width: 100%;
+        min-width: 193.5px;
+        height: 200px;
     }
 
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
+    .activites-cards {
+        flex-wrap: nowrap;
     }
+
+    .activites-cards .card {
+        min-width: 193.5px;
+        height: 13%;
+        min-height: 270px;
+    }
+
+    footer {
+        min-width: 924px;
+        width:100%;
+        height: 163px;
+    }
+    
+
+
+    .footerlistagain li{
+        width:308px;
+    }
+
 }
