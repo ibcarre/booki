@@ -1,6 +1,6 @@
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) CHANGER 1024 EN 1400 */
-@media (max-width: 1440px) and (min-width:1024px) {    
+/* Medium devices (tablets, less/equal than 1024px)*/
+@media (max-width: 1024px){    
     .hebergements-and-populaires {
         flex-direction: column;
     }

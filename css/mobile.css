@@ -1,5 +1,5 @@
 /* Small devices (phones, less than 768px) */
-@media (max-width:1024px) {
+@media (max-width:768px) {
 
     html,
     body {
