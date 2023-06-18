@@ -15,7 +15,7 @@
 
     .main-container {
         margin: 0px;
-        padding: 0 20px;
+        padding: 0px 20px 0px 20px;
     }
 
     .hebergements-and-populaires section {
@@ -60,8 +60,10 @@
 
     form {
         width: 100%;
-        min-width: 335px;
         max-width: 500px;
+        align-items:flex-start;
+        border: 1px solid #F2F2F2;
+        border-radius: 15px;
     }
 
     .search-txt {
@@ -74,18 +76,16 @@
 
     .rechercher {
         min-width: 49px;
+        max-width: 49px;
         border-radius: 15px;
         height: 49px;
-        position: relative;
-        right: 49px;
 
     }
 
     input {
-        width: 75%;
-        min-width: 285px;
+        border:none;
+        flex-grow:2;
         height: 49px;
-        border-radius: 0px 15px 15px 0px;
     }
 
     .location {
@@ -97,24 +97,28 @@
         flex-wrap: wrap;
     }
 
+    /* .filtr li{
+        width: 43%;
+    } */
+
     h4 {
         margin-bottom: 0px;
     }
 
     li button {
-        width: 162.5px;
+        width: 100%;
+        min-width: 162.5px;
         font-size: 14px;
         align-items: start;
         display: flex;
         align-items: center;
     }
 
-    .cercleinfo {
-        width: 34px;
-    }
+
 
     .populaires {
         width: 112%;
+        max-width: 763px; 
         border-radius: 0px !important;
         background-color: var(--main-bg-color) !important;
         box-sizing: border-box;
@@ -176,13 +180,11 @@
 
     .activites-cards img {
         width: 100%;
-        min-width: 315px;
         height: 141px;
     }
 
     .activites-cards .card {
         width: 100%;
-        min-width: 315px;
         height: 200px;
     }
 
