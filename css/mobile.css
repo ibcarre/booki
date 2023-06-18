@@ -158,7 +158,7 @@
         order: 1;
     }
 
-    article#reste.card {
+    .reste {
         order: 2;
     }
 
