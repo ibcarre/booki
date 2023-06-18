@@ -7,13 +7,10 @@
 
     .hebergements {
         width: 100% ;
-        min-width: 924px;
-        height: 611.5px;
     }
 
     .populaires {
         width:100%;
-        min-width: 924px;
         height: 252px;
         margin-top: 50px;
     }
@@ -53,22 +50,16 @@
 
     .activites-cards img {
         width: 100%;
-        min-width: 193.5px;
         height: 200px;
     }
 
-    .activites-cards {
-        flex-wrap: nowrap;
-    }
 
     .activites-cards .card {
-        min-width: 193.5px;
         height: 13%;
         min-height: 270px;
     }
 
     footer {
-        min-width: 924px;
         width:100%;
         height: 163px;
     }

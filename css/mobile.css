@@ -3,7 +3,7 @@
 
     html,
     body {
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     height: 100%;
 }
@@ -199,7 +199,6 @@
     }
 
     footer {
-        width: 100%;
         position: absolute;
         right: 0px;
         height: 461px;
