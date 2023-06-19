@@ -15,7 +15,7 @@
 
     .main-container {
         margin: 0px;
-        padding: 0px 20px 0px 20px;
+        padding: 0px /*20px 0px 20px; */
     }
 
     .hebergements-and-populaires section {
@@ -45,7 +45,21 @@
     .top {
         width: 100%;
         display: flex;
-        justify-content: space-evenly;
+        padding:0px;
+        flex-direction: row;
+        justify-content: space-between; 
+    }
+
+    .headernav{
+        margin-right:0px;
+    }
+
+    li.headernav{
+        width:50%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 
     header {
@@ -55,23 +69,35 @@
 
     h1 {
         margin: 0px;
+        margin-left:20px;
+        margin-right:20px;    
         padding: 0px;
     }
 
+    h2{
+        margin-left:20px;
+        margin-right:20px;    
+    }
+
+    h3{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+
     form {
-        width: 100%;
+        margin-left:20px;
+        margin-right:20px;    
+        width: 80%;
         max-width: 500px;
         align-items:flex-start;
         border: 1px solid #F2F2F2;
         border-radius: 15px;
     }
 
-    .search-txt {
-        font-size: 0px;
-    }
-
     .fa-solid.fa-magnifying-glass {
         visibility: visible;
+        font-size: 18px !important;
     }
 
     .rechercher {
@@ -79,6 +105,7 @@
         max-width: 49px;
         border-radius: 15px;
         height: 49px;
+        font-size: 0px;
 
     }
 
@@ -95,14 +122,14 @@
 
     .filtr {
         flex-wrap: wrap;
+        margin-left:20px;
+        margin-right:20px;  
     }
-
-    /* .filtr li{
-        width: 43%;
-    } */
 
     h4 {
         margin-bottom: 0px;
+        margin-left:20px;
+        margin-right:20px;  
     }
 
     li button {
@@ -117,7 +144,7 @@
 
 
     .populaires {
-        width: 112%;
+        width: 100%;
         max-width: 763px; 
         border-radius: 0px !important;
         background-color: var(--main-bg-color) !important;
@@ -126,11 +153,20 @@
 
 
     .hebergements {
+        margin-left:20px;
+        margin-right:20px;
         width: 100%;
         padding: 0px !important;
     }
 
+    .section-title{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
     .hebergement-cards {
+        margin-left:20px;
+        margin-right:20px;
         flex-wrap: wrap;
         gap: 0px;
         justify-content: center;
@@ -164,8 +200,8 @@
 
     .Activites {
         margin-top: 85px;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left:30px;
+        margin-right:30px;
         margin-bottom: 65px;
     }
 
@@ -192,10 +228,6 @@
         padding-left: 10px;
     }
 
-    .Activites {
-        margin-left: 10px
-    }
-
     .footerlist {
         flex-direction: column;
     }
@@ -208,6 +240,8 @@
 
     .footerlist {
         gap: 50px;
+        margin-left:20px;
+        margin-right:20px;
 
     }
 
@@ -223,6 +257,6 @@
     
 
     .headernav:active {
-        border-bottom: 2px solid rgb(9, 255, 0);
+        border-bottom: 2px solid #0065FC;
     } 
 }
