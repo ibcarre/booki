@@ -1,6 +1,6 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px)*/
-@media (max-width: 1024px) and (min-width: 767px) {
+@media (max-width: 1024px){
   .hebergements-and-populaires {
     flex-direction: column;
   }
@@ -37,7 +37,6 @@
     box-sizing: border-box;
     width: 100%;
     height: 124px;
-    background: url(fred-kleber-gTbaxaVLvsg-unsplash.jpg);
     /* White */
     border: 5px solid #ffffff;
     border-radius: 20px 20px 0px 0px;
